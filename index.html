@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>周楠 · Nolan Zhou — 个人主页</title>
+<meta name="description" content="周楠的个人主页：学习项目合集。">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #faf7f2;
+    color: #2b2b2b;
+    line-height: 1.7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 64px 24px 48px; flex: 1; width: 100%; }
+  header { margin-bottom: 48px; }
+  h1 { font-size: 32px; letter-spacing: 2px; }
+  h1 span { color: #b0784a; }
+  .tagline { margin-top: 8px; color: #777; font-size: 15px; }
+  h2 { font-size: 18px; margin: 40px 0 16px; letter-spacing: 1px; }
+  h2::before { content: ""; display: inline-block; width: 8px; height: 8px; background: #b0784a; border-radius: 50%; margin-right: 8px; vertical-align: 2px; }
+  p { color: #555; font-size: 15px; }
+  .card {
+    display: block;
+    background: #fff;
+    border: 1px solid #eee5d8;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .2s, transform .2s;
+  }
+  .card:hover { border-color: #b0784a; transform: translateY(-2px); }
+  .card h3 { font-size: 16px; margin-bottom: 4px; }
+  .card p { font-size: 14px; color: #777; }
+  .links { display: flex; gap: 12px; flex-wrap: wrap; }
+  .links a {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    transition: border-color .2s, color .2s;
+  }
+  .links a:hover { border-color: #b0784a; color: #b0784a; }
+  footer { text-align: center; color: #aaa; font-size: 13px; padding: 24px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>周楠 <span>· Nolan Zhou</span></h1>
+      <p class="tagline">个人主页 · 学习与创造</p>
+    </header>
+
+    <section>
+      <h2>关于我</h2>
+      <p>你好，我是周楠。一名个人创作者，喜欢折腾 AI、发现好用的免费资源，偶尔做点小东西。这里是我的学习项目合集。</p>
+    </section>
+
+    <section>
+      <h2>项目</h2>
+      <a class="card" href="https://github.com/SaberZhoun/global-deal-hunter">
+        <h3>🌍 GLOBAL DEAL HUNTER · 全球羊毛情报中心</h3>
+        <p>免费 AI 订阅、VPS / 云额度、免费域名情报站，中文优先，定时巡检。</p>
+      </a>
+      <a class="card" href="https://github.com/SaberZhoun/gta6-meme-x">
+        <h3>🎮 GTA 6 Meme</h3>
+        <p>make.fun 悬赏作品：一张梗图，送别 GTA 6 发售前的漫长等待。</p>
+      </a>
+      <a class="card" href="https://github.com/SaberZhoun/news-image-20261120">
+        <h3>📰 News Image · 2026-11-20</h3>
+        <p>用一张图，总结 2026 年 11 月 20 日的世界新闻。</p>
+      </a>
+    </section>
+
+    <section>
+      <h2>找到我</h2>
+      <div class="links">
+        <a href="https://github.com/SaberZhoun">GitHub</a>
+        <a href="https://x.com/lunabloomovo">X @lunabloomovo</a>
+      </div>
+    </section>
+  </div>
+  <footer>© 2026 周楠 · woni.hidns.cc</footer>
+</body>
+</html>
